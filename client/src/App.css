@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  background-color: #ff9900;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+  margin:0 auto;
+  border: 2px black solid;
+}
+
+.nav {
+  background-color: #783f04;
+  padding: 5px 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 670px;
+  border: 2px black solid;
+  margin: 0 auto;
+}
+
+
+
+.nav h1 {
+  color: white;
+  margin-left: 250px;
+  
+}
+
+
+ button{
+
+  color: white;
+  padding: 10px 20px;
+  border:2px black solid;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: 3px 5px black;
+}
+.nav button, .btn1{
+  background-color: #085394;
+
+}
+ .btn2{
+  background-color: #cf2a27;
+ }
+
+
+
+.pirates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pirate {
+  background-color: white;
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  width: 500px;
+  
+}
+
+.pirate img {
+  width: 80px;
+  float: left;
+  margin: 10px;
+}
+
+.pirate h3 {
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 150px;
+}
+
+.input-group label {
+
+ flex-wrap: nowrap;
+ margin: 10px;
+}
+
+.input-group input
+{
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.input-group button {
+  background-color: #085394;
+  color: white;
+  padding: 5px;
+  border: 2px black solid;
+}
+
+.checkbox{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+   margin-bottom: 5px;
+}
+
+.prof-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.prof-left img {
+  width: 200px;
+  height: auto;
+  
+}
+
+.prof-left h3 {
+  word-wrap: break-word;
+}
+
+.prof-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 400px;
+  border: 2px black solid;
+}
+.prof-right p{
+  margin-right: 150px;
+}
